@@ -1,0 +1,10 @@
+﻿{
+  "mqtt_host": "YOUR_EMQX_HOST.emqxsl.com",
+  "mqtt_port": 8883,
+  "mqtt_username": "wol-controller",
+  "mqtt_client_id": "wol-controller",
+  "mqtt_topic": "home/desktop/wake",
+  "keyring_service": "ESP32-WOL-EMQX",
+  "desktop_tailscale_ip": "100.x.x.x",
+  "rdp_port": 3389
+}

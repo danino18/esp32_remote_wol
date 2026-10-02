@@ -1,0 +1,31 @@
+﻿# Secrets
+**/secrets.h
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Arduino build files
+build/
+.build/
+*.elf
+*.map
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Private keys
+*.key
+
+# Local machine configuration
+windows/config.json
+firmware/esp32_remote_control/config.h
